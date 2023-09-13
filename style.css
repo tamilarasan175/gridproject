@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav img{
+    width:150px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    font-size: 18px;
+    color:  brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+nav li:hover
+{
+color: orangered;
+}
+
+.logo{
+   cursor: pointer;
+}
+.menu{
+    position: relative;
+    margin-right: 30px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.chair{
+    width: 900px;
+    top: 70%;
+    left: 30%;
+    transform: translateX(-50%,-50%);
+    position: relative;
+}
+h2{
+    margin: 10px;
+    background-color: white;
+}
+p{
+    background-color: white; 
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    margin-left: 500px;
+    margin-top: 80px;
+}
+
+.container > div{
+     height: 200px;
+     width:200px;
+     color: brown;
+     cursor: pointer;
+     background-position: fixed;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+
+}
+
+
+.container > div:hover{
+    transform: scale(0.9);
+    color: brown;
+    
+    
+}
+
+.container > div:nth-of-type(4)
+{
+    grid-column: 4/2;
+}
+.bg-1{
+    background-image: url('https://assets.wfcdn.com/im/23319620/resize-h445%5Ecompr-r85/2335/233530370/Amishi+Ceramic+Table+Lamp.jpg');
+    
+}
+.bg-2{
+    background-image: url('https://static-01.daraz.com.np/p/8c9a9a4f6621b44d7a0f928882bab1b9.jpg');
+}
+.bg-3{
+    background-image: url('https://assets.wfcdn.com/im/42295891/resize-h445%5Ecompr-r85/4301/43015099/72%27%27+H+Wood+Grandfather+Clock.jpg');
+    
+}
+.bg-4{
+    background-image: url('https://media.bouclair.com/image/upload/if_!wholeprd!_in_tags/w_583,h_583,c_pad/w_700,h_700,c_lpad/if_end/w_700,h_700,c_fill,b_rgb:f6f5f3,q_70,f_auto,dpr_auto/products/images/highres/9401531');
+}
+.bg-5{
+    background-image: url('https://assets.wfcdn.com/im/09166652/resize-h755-w755%5Ecompr-r85/2357/235722482/IDEA4WALL+Framed+Canvas+Print+Wall+Art+Set+Blue+Grey+Duotone+Mountain+Forest+Abstract+Nature+Illustrations+Modern+Art+Nordic+Decorative+Wilderness+Zen+Minimal+Boho+For+Living+Room%2C+Bedroom%2C+Office+-+3+Piece+Print+on+Canvas.jpg');
+}
+.bg-6{
+    background-image: url('https://assets.wfcdn.com/im/16342254/resize-h755-w755%5Ecompr-r85/2205/220542569/Boho+Decor+Cotton+Wall+Hanging.jpg');
+}
+.bg-7{
+    background-image: url('https://assets.wfcdn.com/im/01185089/resize-h755-w755%5Ecompr-r85/7001/70018163/Artificial+Roses+Floral+Arrangement+in+Vase.jpg');
+}
